@@ -1,0 +1,21 @@
+canvas {
+  
+  border-radius: 50%; /* Tạo hiệu ứng tròn */
+  display: block; /* Đảm bảo canvas chiếm không gian */
+  margin: auto; /* Căn giữa */
+}
+
+.wordcloud-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+}
+
+#tags a {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+}
+

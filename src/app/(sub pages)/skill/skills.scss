@@ -1,0 +1,41 @@
+.container.skills-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: #1a1a1a; // Background color
+    min-height: 100vh;
+    color: #fff; // White text for content
+  
+    .text-zone {
+      width: 40%;
+      font-family: "Courier New", Courier, monospace;
+  
+      h1 {
+        color: #00ff00; // Neon green for "Skills"
+        font-size: 3rem;
+        margin-bottom: 20px;
+      }
+  
+      p {
+        color: #bfbfbf; // Light gray for paragraphs
+        font-size: 1.1rem;
+        line-height: 1.8;
+        margin-bottom: 20px;
+      }
+    }
+  
+    .tagcloud-wrap {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      canvas {
+        border-radius: 50%;
+        background-color: #1a1a1a; // Match background
+        box-shadow: 0 0 20px rgba(0, 255, 0, 0.5); // Subtle glow effect
+      }
+    }
+  }
+  
